@@ -1,0 +1,20 @@
+.verticalText {
+	writing-mode: vertical-rl;
+	margin-top: 0;
+}
+.btnDelete{
+	width: 100%;
+	border: none;
+	border-radius: 2px;
+	cursor: pointer;
+	color: rgba(255, 0, 0, 0.555);
+	padding: 8px;
+	margin:0 ;
+	transition: all .4s ease-in;
+}
+.error{
+   color: red;
+   font-weight: bold;
+   font-size: .75rem;
+   margin-top: -.75rem;
+}

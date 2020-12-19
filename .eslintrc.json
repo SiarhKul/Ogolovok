@@ -1,0 +1,42 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    // "extends": [
+    //     "eslint:recommended",
+    //     "plugin:react/recommended"
+    // ],
+    
+    "extends": [
+        "react-app", 
+        "react-app/jest",
+        "prettier"
+    ],
+      
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 12
+    },
+    "plugins": [
+        "react",
+        "react-hooks",
+        "prettier"
+         
+        
+    ],
+    "rules": {
+        // "jsx-quotes":[
+        //     1,
+        //     "prefer-double"
+        // ],
+        // "prettier/prettier": ["error"],
+    "semi": ["warn", "always"],
+    "quotes": ["warn", "double"],
+    "react-hooks/rules-of-hooks": "error", // Проверяем правила хуков
+    "react-hooks/exhaustive-deps": "off" // Проверяем зависимости эффекта
+     }
+}

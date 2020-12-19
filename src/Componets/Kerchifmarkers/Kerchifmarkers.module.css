@@ -1,0 +1,9 @@
+.btnSize{
+   min-width: 232px;
+}
+.error{
+   color: red;
+   font-weight: bold;
+   font-size: .75rem;
+   margin-top: -.75rem;
+}

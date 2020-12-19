@@ -1,0 +1,17 @@
+.sorting{
+  position: relative;
+  }
+  .arrow{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: blue;
+  }
+  .border{
+    border-top: 1px solid #dee2e6 !important;
+  }
+  
+  .verticalText {
+    writing-mode: vertical-rl;
+    margin-top: 0;
+  }
